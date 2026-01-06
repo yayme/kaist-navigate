@@ -13,7 +13,7 @@ interface ChecklistItem {
   estimatedTime: string
   steps: string[]
   location?: string
-  requiredDocuments: string[]
+  requiredDocuments?: string[]
   notes?: string
   links?: { text: string; url: string }[]
 }
@@ -197,7 +197,7 @@ export default function NewcomerChecklist() {
                   )}
 
                   {/* Required Documents */}
-                  {item.requiredDocuments.length > 0 && (
+                  {item.requiredDocuments && item.requiredDocuments.length > 0 && (
                     <div className="bg-yellow-50 p-3 rounded-lg">
                       <h4 className="font-semibold text-yellow-900 text-sm mb-2">
                         📄 Required Documents
