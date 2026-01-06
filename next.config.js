@@ -5,8 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Uncomment and set basePath if deploying to a repo subdirectory
-  // basePath: '/kaist-companion-webapp',
+  basePath: '/kaist-navigate',
 }
 
 module.exports = nextConfig
