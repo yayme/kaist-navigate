@@ -254,7 +254,7 @@ export default function InteractiveMap() {
               Integration with Google Maps or custom SVG map would go here
             </p>
             <a
-              href="https://www.kaist.ac.kr/en/html/campus/050101.html"
+              href="https://www.kaist.ac.kr/site/map/index.html"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-4 px-4 py-2 bg-kaist-blue text-white rounded-lg hover:bg-kaist-light-blue"
