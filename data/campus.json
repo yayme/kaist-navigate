@@ -1,0 +1,166 @@
+{
+  "buildings": [
+    {
+      "code": "N13",
+      "name": "Tae Wul Gwan",
+      "category": "Services",
+      "facilities": [
+        "General Store",
+        "Mobile Phone Shop",
+        "Taxi Stand",
+        "Bookstore"
+      ],
+      "coordinates": { "lat": 36.3688, "lng": 127.3651 },
+      "searchKeywords": ["store", "shop", "taxi", "phone", "bookstore"]
+    },
+    {
+      "code": "W2",
+      "name": "Student Center",
+      "category": "Services",
+      "facilities": [
+        "Woori Bank",
+        "Travel Agency",
+        "West Cafeteria",
+        "Student Lounge"
+      ],
+      "coordinates": { "lat": 36.3710, "lng": 127.3640 },
+      "searchKeywords": ["bank", "woori", "travel", "cafeteria", "student center"]
+    },
+    {
+      "code": "E14",
+      "name": "Main Administration Building",
+      "category": "Administration",
+      "facilities": [
+        "General Affairs Office",
+        "Academic Affairs",
+        "International Office"
+      ],
+      "coordinates": { "lat": 36.3695, "lng": 127.3670 },
+      "searchKeywords": ["admin", "administration", "general affairs", "academic"]
+    },
+    {
+      "code": "E21",
+      "name": "Health Center",
+      "category": "Medical",
+      "facilities": [
+        "KAIST Clinic",
+        "Pharmacy",
+        "Health Services"
+      ],
+      "coordinates": { "lat": 36.3700, "lng": 127.3680 },
+      "searchKeywords": ["clinic", "pharmacy", "doctor", "health", "medical", "hospital"]
+    },
+    {
+      "code": "W2-1",
+      "name": "International Center",
+      "category": "Services",
+      "facilities": [
+        "ISSS Office (International Scholar & Student Services)",
+        "Korean Language Program",
+        "Coffee Bean"
+      ],
+      "coordinates": { "lat": 36.3712, "lng": 127.3642 },
+      "searchKeywords": ["isss", "international", "visa", "foreign", "language", "korean class"]
+    },
+    {
+      "code": "W8",
+      "name": "Safety & Security Office",
+      "category": "Services",
+      "facilities": [
+        "ID Card Services",
+        "Car Pass Services",
+        "Campus Security",
+        "Lost & Found"
+      ],
+      "coordinates": { "lat": 36.3720, "lng": 127.3630 },
+      "searchKeywords": ["security", "id card", "car pass", "parking", "safety", "lost found"]
+    },
+    {
+      "code": "N11",
+      "name": "Kaimaru (North Cafeteria Complex)",
+      "category": "Dining",
+      "facilities": [
+        "North Cafeteria",
+        "Ttukbaegi",
+        "Hue Gimbap",
+        "Shanghai Chinese Restaurant"
+      ],
+      "coordinates": { "lat": 36.3730, "lng": 127.3665 },
+      "searchKeywords": ["cafeteria", "food", "dining", "restaurant", "kaimaru", "north"]
+    },
+    {
+      "code": "E5",
+      "name": "East Cafeteria",
+      "category": "Dining",
+      "facilities": [
+        "Student Cafeteria (1F)",
+        "Faculty Club (2F)"
+      ],
+      "coordinates": { "lat": 36.3690, "lng": 127.3690 },
+      "searchKeywords": ["cafeteria", "food", "dining", "east", "faculty club"]
+    },
+    {
+      "code": "W2",
+      "name": "West Cafeteria",
+      "category": "Dining",
+      "facilities": [
+        "Student Cafeteria (1F)",
+        "Pepper's (2F)",
+        "DDDN Pizza"
+      ],
+      "coordinates": { "lat": 36.3710, "lng": 127.3640 },
+      "searchKeywords": ["cafeteria", "food", "dining", "west", "pizza", "peppers"]
+    },
+    {
+      "code": "E15",
+      "name": "Main Auditorium",
+      "category": "Facilities",
+      "facilities": [
+        "Auditorium",
+        "Event Hall",
+        "Shuttle Stop"
+      ],
+      "coordinates": { "lat": 36.3698, "lng": 127.3672 },
+      "searchKeywords": ["auditorium", "event", "hall", "shuttle"]
+    },
+    {
+      "code": "LIBRARY",
+      "name": "Central Library",
+      "category": "Academic",
+      "facilities": [
+        "Study Areas",
+        "Computer Lab",
+        "Group Study Rooms",
+        "24/7 Study Zone"
+      ],
+      "coordinates": { "lat": 36.3700, "lng": 127.3660 },
+      "searchKeywords": ["library", "study", "books", "computer", "24 hour"]
+    }
+  ],
+  "emergencyContacts": [
+    {
+      "name": "Campus Police",
+      "phone": "042-350-4200",
+      "location": "W8",
+      "available": "24/7"
+    },
+    {
+      "name": "Ambulance",
+      "phone": "119",
+      "type": "National Emergency",
+      "available": "24/7"
+    },
+    {
+      "name": "Fire Department",
+      "phone": "119",
+      "type": "National Emergency",
+      "available": "24/7"
+    },
+    {
+      "name": "KAIST Clinic",
+      "phone": "042-350-1010",
+      "location": "E21",
+      "available": "Weekdays 09:00-17:00"
+    }
+  ]
+}

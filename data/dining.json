@@ -1,0 +1,101 @@
+{
+  "cafeterias": [
+    {
+      "id": "kaimaru",
+      "name": "Kaimaru (N11)",
+      "code": "N11",
+      "type": "Cafeteria Complex",
+      "facilities": [
+        {
+          "name": "North Cafeteria",
+          "floor": "Multiple",
+          "meals": ["Breakfast", "Lunch", "Dinner"],
+          "hours": {
+            "breakfast": "07:30-09:00",
+            "lunch": "11:30-13:30",
+            "dinner": "17:30-19:00"
+          }
+        },
+        {
+          "name": "Ttukbaegi",
+          "floor": "1F",
+          "cuisine": "Korean Hot Pot",
+          "hours": { "lunch": "11:30-14:00", "dinner": "17:00-19:30" }
+        },
+        {
+          "name": "Hue Gimbap",
+          "floor": "1F",
+          "cuisine": "Korean Snacks",
+          "hours": { "all_day": "10:00-20:00" }
+        },
+        {
+          "name": "Shanghai",
+          "floor": "1F",
+          "cuisine": "Chinese",
+          "hours": { "lunch": "11:30-14:00", "dinner": "17:00-19:30" }
+        }
+      ]
+    },
+    {
+      "id": "east",
+      "name": "East Cafeteria (E5)",
+      "code": "E5",
+      "type": "Cafeteria",
+      "facilities": [
+        {
+          "name": "Student Cafeteria",
+          "floor": "1F",
+          "meals": ["Breakfast", "Lunch", "Dinner"],
+          "hours": {
+            "breakfast": "07:30-09:00",
+            "lunch": "11:30-13:30",
+            "dinner": "17:30-19:00"
+          }
+        },
+        {
+          "name": "Faculty Club",
+          "floor": "2F",
+          "note": "Reservations often required",
+          "hours": { "lunch": "11:30-13:30" }
+        }
+      ]
+    },
+    {
+      "id": "west",
+      "name": "West Cafeteria (W2)",
+      "code": "W2",
+      "type": "Cafeteria Complex",
+      "facilities": [
+        {
+          "name": "Student Cafeteria",
+          "floor": "1F",
+          "meals": ["Breakfast", "Lunch", "Dinner"],
+          "hours": {
+            "breakfast": "07:30-09:00",
+            "lunch": "11:30-13:30",
+            "dinner": "17:30-19:00"
+          }
+        },
+        {
+          "name": "Pepper's",
+          "floor": "2F",
+          "cuisine": "Western/International",
+          "hours": { "lunch": "11:30-14:00" }
+        },
+        {
+          "name": "DDDN Pizza",
+          "floor": "1F",
+          "cuisine": "Pizza",
+          "hours": { "all_day": "11:00-20:00" }
+        }
+      ]
+    }
+  ],
+  "cafes": [
+    { "name": "Mango Six", "code": "E4", "hours": "08:00-20:00" },
+    { "name": "A Twosome Place", "code": "N1", "hours": "08:00-21:00" },
+    { "name": "Coffee Bean", "code": "W2-1", "hours": "08:00-20:00" },
+    { "name": "Dunkin Donuts", "code": "E3-2", "hours": "07:30-21:00" },
+    { "name": "Smoothie King", "code": "W1", "hours": "09:00-20:00" }
+  ]
+}

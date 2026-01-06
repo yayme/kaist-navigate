@@ -1,0 +1,74 @@
+{
+  "shuttleRoutes": {
+    "olev": {
+      "name": "OLEV Shuttle",
+      "operatingDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "schedule": {
+        "weekdays": [
+          { "periods": ["08:45-11:45", "13:15-16:55"], "interval": 15 }
+        ]
+      },
+      "stops": [
+        { "code": "N11", "name": "N11 (Kaimaru)", "order": 1 },
+        { "code": "N3", "name": "N3", "order": 2 },
+        { "code": "E7", "name": "E7", "order": 3 },
+        { "code": "E21", "name": "E21 (Clinic)", "order": 4 },
+        { "code": "E11", "name": "E11", "order": 5 },
+        { "code": "MAIN_GATE", "name": "Main Gate", "order": 6 },
+        { "code": "DUCK_POND", "name": "Duck Pond", "order": 7 },
+        { "code": "W8", "name": "W8 (Safety & Security)", "order": 8 },
+        { "code": "N11", "name": "N11 (Kaimaru)", "order": 9 }
+      ]
+    },
+    "mainMunjiHwaam": {
+      "name": "Main-Munji-Hwaam Shuttle",
+      "operatingDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "schedule": {
+        "daily": [
+          { "time": "08:00" },
+          { "time": "09:00" },
+          { "time": "10:00" },
+          { "time": "12:00" },
+          { "time": "13:00" },
+          { "time": "14:00" },
+          { "time": "16:00" },
+          { "time": "17:00" },
+          { "time": "18:00" },
+          { "time": "20:00" }
+        ]
+      },
+      "stops": [
+        { "code": "E15", "name": "Main Auditorium (E15)", "order": 1 },
+        { "code": "W8", "name": "W8", "order": 2 },
+        { "code": "DUCK_POND", "name": "Duck Pond", "order": 3 },
+        { "code": "HWAAM", "name": "Hwaam Dormitory", "order": 4 },
+        { "code": "MUNJI", "name": "Munji Campus", "order": 5 }
+      ]
+    },
+    "wolpyeong": {
+      "name": "Wolpyeong Station Shuttle",
+      "operatingDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "schedule": {
+        "weekdays": [
+          { "time": "07:50", "direction": "To Campus" },
+          { "time": "08:20", "direction": "To Campus" },
+          { "time": "09:00", "direction": "To Station" },
+          { "time": "12:00", "direction": "To Station" },
+          { "time": "13:00", "direction": "To Campus" },
+          { "time": "17:00", "direction": "To Station" },
+          { "time": "18:00", "direction": "To Station" }
+        ]
+      },
+      "stops": [
+        { "code": "MAIN_CAMPUS", "name": "Main Campus", "order": 1 },
+        { "code": "WOLPYEONG", "name": "Wolpyeong Station", "order": 2 },
+        { "code": "GALLERIA", "name": "Galleria Timeworld", "order": 3 },
+        { "code": "GOVT_COMPLEX", "name": "Government Complex", "order": 4 }
+      ]
+    }
+  },
+  "taxi": {
+    "location": "Beside N13 (Tae Wul Gwan)",
+    "coordinates": { "lat": 36.3688, "lng": 127.3651 }
+  }
+}
