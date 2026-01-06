@@ -10,6 +10,41 @@ interface MenuData {
   }
 }
 
+interface Hours {
+  breakfast?: string
+  lunch?: string
+  dinner?: string
+  all_day?: string
+}
+
+interface Facility {
+  name: string
+  floor: string
+  cuisine?: string
+  meals?: string[]
+  hours?: Hours
+  note?: string
+}
+
+interface Cafeteria {
+  id: string
+  name: string
+  code: string
+  type: string
+  facilities: Facility[]
+}
+
+interface Cafe {
+  name: string
+  code: string
+  hours: string
+}
+
+interface DiningData {
+  cafeterias: Cafeteria[]
+  cafes: Cafe[]
+}
+
 export default function DailyMenuDisplay() {
   const [activeTab, setActiveTab] = useState<'north' | 'east' | 'west'>('north')
   const [menuData, setMenuData] = useState<MenuData | null>(null)
@@ -82,8 +117,8 @@ export default function DailyMenuDisplay() {
     }
   }
 
-  const getCafeteriaInfo = (cafeteriaId: string) => {
-    return diningData.cafeterias.find(c => c.id === cafeteriaId)
+  const getCafeteriaInfo = (cafeteriaId: string): Cafeteria | undefined => {
+    return (diningData as DiningData).cafeterias.find(c => c.id === cafeteriaId)
   }
 
   const getMealTime = () => {
@@ -302,7 +337,7 @@ export default function DailyMenuDisplay() {
         </h3>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {diningData.cafes.map((cafe, index) => (
+          {(diningData as DiningData).cafes.map((cafe, index) => (
             <div key={index} className="p-4 bg-gray-50 rounded-lg">
               <h4 className="font-semibold text-kaist-blue">{cafe.name}</h4>
               <div className="flex items-center gap-2 text-sm text-gray-600 mt-1">
