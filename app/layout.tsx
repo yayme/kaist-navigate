@@ -26,6 +26,7 @@ export default function RootLayout({
           <div className="container mx-auto px-4 text-center">
             <p>&copy; 2026 KAIST Companion. Built for the KAIST Community.</p>
             <p className="text-sm mt-2">Emergency: Campus Police 042-350-4200 | Ambulance 119</p>
+            <p className="text-sm mt-2 opacity-80">Developed by Adnan Sadik</p>
           </div>
         </footer>
       </body>
