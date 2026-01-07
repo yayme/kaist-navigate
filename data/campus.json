@@ -15,18 +15,15 @@
     },
     {
       "code": "W2",
-      "name": "Student Center (West Cafeteria)",
+      "name": "Student Center",
       "category": "Services",
       "facilities": [
         "Woori Bank",
         "Travel Agency",
-        "West Cafeteria (1F)",
-        "Pepper's Restaurant (2F)",
-        "DDDN Pizza",
         "Student Lounge"
       ],
       "coordinates": { "lat": 36.3710, "lng": 127.3640 },
-      "searchKeywords": ["bank", "woori", "travel", "cafeteria", "west", "pizza", "peppers", "student center"]
+      "searchKeywords": ["bank", "woori", "travel", "student center"]
     },
     {
       "code": "E14",
@@ -100,6 +97,18 @@
       ],
       "coordinates": { "lat": 36.3690, "lng": 127.3690 },
       "searchKeywords": ["cafeteria", "food", "dining", "east", "faculty club"]
+    },
+    {
+      "code": "W2",
+      "name": "West Cafeteria",
+      "category": "Dining",
+      "facilities": [
+        "Student Cafeteria (1F)",
+        "Pepper's Restaurant (2F)",
+        "DDDN Pizza"
+      ],
+      "coordinates": { "lat": 36.3710, "lng": 127.3640 },
+      "searchKeywords": ["cafeteria", "food", "dining", "west", "pizza", "peppers"]
     },
     {
       "code": "E15",
