@@ -199,10 +199,10 @@
   ],
   "quickLinks": [
     { "name": "KAIST Portal", "url": "https://portal.kaist.ac.kr", "category": "Essential" },
-    { "name": "LMS (Learning Management System)", "url": "https://lms.kaist.ac.kr", "category": "Academic" },
-    { "name": "ISSS Website", "url": "https://isss.kaist.ac.kr", "category": "International" },
+    { "name": "LMS (Learning Management System)", "url": "https://klms.kaist.ac.kr", "category": "Academic" },
+    { "name": "KISA Website", "url": "https://kisa.kaist.ac.kr/", "category": "International" },
     { "name": "KAIST Main Website", "url": "https://www.kaist.ac.kr", "category": "General" },
     { "name": "Library", "url": "https://library.kaist.ac.kr", "category": "Academic" },
-    { "name": "Campus Map", "url": "https://www.kaist.ac.kr/en/html/campus/050101.html", "category": "General" }
+    { "name": "Campus Map", "url": "https://www.kaist.ac.kr/site/map/index.html", "category": "General" }
   ]
 }
